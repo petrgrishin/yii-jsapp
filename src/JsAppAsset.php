@@ -19,7 +19,7 @@ class JsAppAsset extends CApplicationComponent {
         parent::init();
         $vendorPath = $this->getVendorPath();
         $assetPath = $this->getAssetManager()->publish($vendorPath . '/petrgrishin/jsapp/build/');
-        $this->getClientScript()->registerScriptFile($assetPath . '/app.js');
+        $this->getClientScript()->registerScriptFile($assetPath . '/app.min.js');
     }
 
     public function setVendorPath($vendorPath) {
