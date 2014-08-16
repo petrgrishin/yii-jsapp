@@ -4,8 +4,8 @@
     "license": "MIT",
     "require": {
         "php": ">=5.3.0",
-        "yiisoft/yii": "*",
-        "petrgrishin/jsapp": "dev-master"
+        "yiisoft/yii": "~1.1",
+        "petrgrishin/jsapp": "~1.0"
     },
     "require-dev": {
         "league/phpunit-coverage-listener": "~1.0"
